@@ -12,6 +12,7 @@ unless api_key
   exit
 end
 
+# Specify desired city to get event data from
 city = 'Memphis'
 
 # Make an HTTP GET request to the Ticketmaster API to retrieve events information for the specified city
