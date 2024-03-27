@@ -4,7 +4,7 @@ require 'json'
 # Check if the API key is provided as an environment variable
 api_key = ENV['TICKETMASTER_API_KEY']
 
-# Run command % export TICKETMASTER_KEY'(your api key)'
+# Run command % export TICKETMASTER_KEY='(your api key)' in your terminal
 
 # If the API key is not provided, notify the user and exit
 unless api_key
